@@ -1,0 +1,453 @@
+  body{
+    
+    width: 100%;
+    margin: 0 auto;
+    padding: 0px;
+    font-family: "lucida grande",tahoma,verdana,arial,sans-serif;
+    background: #EBEDF0;
+  }
+
+ 
+
+  #header_wrap{
+    width: 100%;
+    background-color: #3B5998;
+  }
+
+  #header{
+    width: 980px;
+    margin: 0px auto;
+    height: 92px;
+  }
+
+  #header li{
+    list-style-type: none;
+    float: left;
+    text-align: left;
+    color: white;
+  }
+
+  #heading{
+    font-family: Helvetica, Arial, sans-serif;
+    color: #1d2129;
+    font-size: 40px;
+   
+
+  }
+
+  #site{
+
+    margin-top:30px;
+    font-family: Helvetica , Arial, sans-serif;
+    width: 170px;
+    font-weight: 900;
+    height: 39px;
+    display: inline-block;
+   
+  }
+
+  #site a{
+    color: white;
+    text-decoration: none;
+    font-size: 35px;
+    font-weight: bold;
+  }
+
+  #header form{
+    margin-top: 17px;
+    float: right;
+  }
+
+  #header form li{
+    font-size: 13px;
+    margin-left: 16px;
+  }
+
+  #header form li a{
+    color: #9CB4D8;
+    text-decoration: none;
+  }
+
+  #header form input[type="text"]{
+    margin-top: 4px;
+    width: 142px;
+    border: 1px solid black;
+    height: 23px;
+    color: #fff;
+    font-size: 12px;
+    font-weight:normal;
+  }
+
+  #header form input[type="password"]{
+    margin-top: 4px;
+    width: 142px;
+    border: 1px solid black;
+    height: 23px;
+    color: #fff;
+    font-weight: normal;
+  }
+
+  #header form input[type="submit"]{
+    height: 24px;
+    margin-top: 20px;
+    background-color: #4267B2;
+    color: white;
+    cursor: pointer;
+    display: inline-block;
+    border: 1px solid #29487D;
+    font-size: 12px;
+    font-weight: bold;
+    white-space: nowrap;  
+  } 
+
+  /* CONTENT */
+
+  #wrap2{
+    margin: 0 auto;
+    text-align: center;
+    width: 980px;
+  }
+  #wrap2 div{
+    margin-left: 270px;
+    font-family: helvetica, arial, sans-serif;
+  }
+  #wrap2 h1{
+    font-family: 'Freight Sans Bold', Helvetica, Arial, sans-serif;
+    font-weight: normal;
+    letter-spacing: normal;
+  }
+
+  #sub{
+    font-family: 'Freight Sans', Helvetica, Arial, sans-serif;
+    letter-spacing: normal;
+    color: #4b4f56;
+  }
+
+  #wrap2 #right{
+    margin-top: 5px;
+    width: 390px;
+    text-align: left;
+  }
+
+  #wrap2 #right h1{
+    font-size: 38px;
+    color: #333333;
+    margin-bottom: -7px;
+  }
+
+  #wrap2 #right #sub{
+    font-size: 20px;
+    color: #2E2E2E;
+  }
+
+  #wrap2 #right li{
+    list-style-type: none;
+    margin-top: 10px;
+  }
+
+  #wrap2 #right li #firstname{
+    width: 45%;
+    height: 38px;
+    border-color: #bdc7d8;
+    border-radius: 5px;
+    color: #bdc7d8;;
+  
+  }
+
+  #wrap2 #right li #Lastname{
+    margin-left: 11px;
+    width: 47%;
+    height: 38px;
+    border-color: #bdc7d8;
+    border-radius: 5px;
+    color: #bdc7d8;;
+    
+  }
+
+  #wrap2 #right li input[type="text"]{
+    
+    width: 376.5px;
+    height: 38px;
+    font-size: 18px;
+    padding-left: 10px;
+    font-size: 17px;
+    border: 1px solid #999999;
+    border-color: #bdc7d8;
+    border-radius: 5px;
+  }
+
+  #wrap2 #right li input[type="password"]{
+    width: 376.5px;
+    height: 38px;
+    font-family: Helvetica , Arial, sans-serif;
+    font-size: 12px;
+    direction: ltr;
+    line-height: 1.34;
+    padding-left: 10px;
+    font-size: 17px;
+    border: 1px solid #999999;
+    border-color: #bdc7d8;
+    border-radius: 5px;
+  }
+
+  #para1{
+    color: #90949c;
+    font-size: 16px;
+    font-weight: bold;
+    
+  }
+
+  #wrap2 #right li select{
+    padding: 4px;
+    
+    margin-left: 1px;
+    font-size: 13px;
+    height: 30px;
+    padding: 5px;
+    vertical-align: top;
+    background-color: #fff;
+    color: #1c1e21;
+    font: 400 13.3333px Arial;
+    box-sizing: border-box;
+    border-style: solid;
+    border: 1px solid #ccd0d5;
+    border-width: 1px;
+    display: inline-block;
+    padding: 5px 0 5px 4px;
+  }
+
+
+  #month{
+    width: 94px;
+    color: #1c1e21;
+    direction: ltr;
+    line-height: 1.34;
+   
+  
+  }
+
+  #gen{
+  
+    font-weight: 700  ;
+    color: #90949c;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 1.20;
+    margin-bottom: 5px;
+    margin-top: 10px;
+
+  }
+#rbtn{
+  margin-top: 54px;
+}
+
+
+  #wrap2 #right li{
+    color: #2E2E2E;
+    font-size: 18px;
+  }
+
+  #one{
+    width: 172px;
+        font-size: 18px;
+      padding: 8px 10px;
+      border-color: #bdc7d8;
+      border-radius: 5px;
+      margin: 0;
+      background-color: transparent;
+  }
+
+
+  #wrap2 #right li input[type="submit"]{
+    width: 200px;
+    height: 40px;
+    text-align: center;
+    font-size: 18px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    font-family: 'Freight Sans Bold', helvetica, arial, sans-serif;
+    font-weight: bold;
+    background: linear-gradient(#67ae55, #578843);
+    background-color: #69a74e;
+    border: 1px solid #3B6E22;
+    border-radius: 5px;
+    color: #FFFFFF;
+  }
+
+  #wrap2 #right #create{
+    color: #666666;
+    font-size: 15px;
+    font-weight: bold;
+  }
+
+  #wrap2 #right #create a{
+    color: #385898;
+    font-size: 15px;
+  }
+  #clrtxt{
+    color: #385898;
+    cursor: pointer;
+  }
+
+  #last_line{
+    margin-bottom: 30px;
+  }
+  #smalltext{
+      color: #777;
+      font-size: 11px;
+      width: 316px;
+      display: block;
+      margin-block-start: 1em;
+      margin-block-end: 1em;
+      margin-inline-start: 0px;
+      margin-inline-end: 0px;
+  }
+
+  #signupbtn{
+    font-family:Helvetica, Arial,sans-serif;
+    font-weight:bold;
+    line-height: 16.08px;
+    padding: 7px 20px;
+    font-size: 19px;
+    background: linear-gradient(#67ae55, #578843);
+    background-color: #69a74e;
+    box-shadow: inset 0 1px 1px #a4e388;
+    border-color: #3b6e22 #3b6e22 #2c5115;
+    line-height: 126%;
+    min-width: 194px;
+    padding: 7px 20px;
+    border: 1px solid;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    letter-spacing: 1px;
+    
+
+
+
+    
+  }
+
+  #end{
+
+    width: 100%;
+    height: 200px;
+    background-color: white;
+    text-decoration: none;
+  }
+  #first-links{
+    margin-right: 450px;
+  
+
+  }
+
+  footer{
+    background-color: white;
+    height: 210px;
+    color: blue;
+  }
+  .footerBox{
+    width: 980px;
+    margin: 20px auto;
+    color:#737373;;
+    font-size: 11px;
+    align-items: center;
+   display: flex;
+   flex-wrap: wrap;
+   
+    
+
+}
+
+.languageBar{
+  
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.footerBox ul{
+    margin: 0;
+    padding: 0;
+    direction: ltr;
+    
+    
+}
+.footerBox ul li{
+    display: inline;
+    font-family: Helvetica , Arial, sans-serif;;
+    list-style: none;
+    line-height: 1.6;
+    font-size: 12px;
+    margin-right: 15px;
+    white-space: nowrap;
+    text-align: -webkit-match-parent;
+    direction:ltr;
+    display: inline;
+    
+    text-decoration: none;
+    vertical-align: top;
+    
+
+}
+.footerBox ul li a{
+    text-decoration: none;
+    color:#385898;
+}
+.footerBox ul li a:hover{
+    text-decoration: underline;
+}
+.footerBox .plusButton{
+    display: inline-block;
+    padding-left: 8px;
+    padding-right: 8px;
+    border: 1px solid;
+    border-radius: 2px;
+    box-sizing: content-box;
+    font-size: 12px;
+    font-weight: bold;
+    justify-content: center;
+    text-align: center;
+    text-shadow: none;
+    border: 1px solid lightgray;
+    text-decoration: none;
+    white-space: nowrap;
+    background-color: #f5f6f7;
+    border-color: #ccd0d5;
+    color: #4b4f56;
+    border: 1px solid;
+    box-sizing: content-box;
+    font-weight: bold;
+    line-height: 18px;
+    height: 18px;
+}
+
+.footerBox .hLine{
+    margin: 5px 0;
+    border-bottom: 1px solid #dddfe2;
+    font-size: 1px;
+    height: 8px;
+    margin-bottom: 8px;
+    color: #737373;
+    margin: 0 auto;
+    width: 980px;  
+    direction: ltr;
+    line-height: 1.34;
+
+}
+.footerBox .copyRight{
+    margin-top: 20px;
+}
+
+.material-icons{
+  width: 16px;
+    height: 16px;
+    background-position: -22px -43px;
+    background-size: auto;
+    background-repeat: no-repeat;
+    display: inline-block;
+    cursor: pointer;
+    direction: ltr;
+    margin-left: 10px;
+    line-height: 1.34;
+}
